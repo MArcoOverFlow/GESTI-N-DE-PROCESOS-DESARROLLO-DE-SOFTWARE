@@ -1,0 +1,7 @@
+<div class="car-list">
+    <ul>
+        <li *ngFor="let car of cars" (click)="selectCar(car)">
+            {{ car.name }}
+        </li>
+    </ul>
+</div>

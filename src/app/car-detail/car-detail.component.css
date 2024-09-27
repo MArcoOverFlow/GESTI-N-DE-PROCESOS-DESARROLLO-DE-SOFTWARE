@@ -1,0 +1,39 @@
+car-detail {
+    float: right;
+    width: 70%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 228px;
+    padding: 15px 30px 15px 30px;
+    background-color: #fff;
+    border-radius: 43px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    z-index: 1000;
+    /* Superpone sobre todo */
+}
+
+.card:hover {
+    transform: scale(1.1);
+    /* Crece al pasar el cursor */
+}
+
+.icon{
+    width: 168px;
+    height: 52.9px;
+}
